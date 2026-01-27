@@ -278,7 +278,7 @@ nav .navlinks li a{
     padding: 20px;
     border-radius: 10px;
     color: #333;
-    max-width: 600px;
+    max-width: 800px;
     width: 100%;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
@@ -478,5 +478,75 @@ nav .navlinks li a{
     .footer-right {
         padding: 10px;
         flex: none;
+    }
+}
+/* =========================
+   CINEMATIC SHORT FILM CARD
+========================= */
+.film-project-horizontal {
+    display: flex;
+    gap: 25px;
+    align-items: stretch;
+}
+
+.film-left {
+    flex: 0 0 220px;
+    display: flex;
+    flex-direction: column;
+}
+
+.film-left img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+}
+
+.film-meta {
+    margin-top: 15px;
+    font-size: 0.95rem;
+    color: #555;
+}
+
+.film-meta p {
+    margin: 6px 0;
+}
+
+.film-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.film-right h4 {
+    color: #007ced;
+}
+
+.film-right p {
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.watch-btn {
+    align-self: flex-start;
+    background: #e50914;
+    color: #fff;
+    padding: 12px 22px;
+    border-radius: 30px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.watch-btn:hover {
+    background: #b20710;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .film-project-horizontal {
+        flex-direction: column;
+    }
+
+    .film-left {
+        max-width: 220px;
     }
 }
