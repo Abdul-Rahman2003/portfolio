@@ -225,7 +225,6 @@ nav .navlinks li a{
 
 
 
-
 /* Experience Section */
 .experience {
     background-color: #333;
@@ -549,4 +548,55 @@ nav .navlinks li a{
     .film-left {
         max-width: 220px;
     }
+}
+
+/* ===== Qualifications Separate Section ===== */
+
+.qualifications-section {
+    width: 100%;
+    background: #0b0b0b;
+    padding: 90px 0;
+}
+
+.qualifications-wrapper {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.qualifications-title {
+    text-align: center;
+    font-size: 34px;
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+.qualifications-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.qualification-box {
+    background: #141414;
+    padding: 28px;
+    border-radius: 14px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+    transition: transform 0.3s ease;
+}
+
+.qualification-box:hover {
+    transform: translateY(-6px);
+}
+
+.qualification-box h3 {
+    margin-bottom: 12px;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.qualification-box p {
+    color: #cccccc;
+    line-height: 1.7;
+    margin-bottom: 6px;
 }
