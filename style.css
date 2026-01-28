@@ -101,7 +101,7 @@ nav .navlinks li a{
     height: 300px;
     border-radius: 50%;
     overflow: hidden;
-    border: 15px solid #444;
+    border: 15px solid #355E3B;
     box-shadow: 5px 7px 25px rgba(0,0,0,0.5);
 }
 .hero-pic img{
@@ -122,11 +122,11 @@ nav .navlinks li a{
     font-size: 14px;
 }
 .hero-text h5 span{
-    color:#007ced;
+    color:#4CBB17;
     font-size: 16px;
 }
 .hero-text h1{
-    color: #007ced;
+    color: #32CD32;
     font-size: 2.5rem;
 }
 .hero-text p{
@@ -148,7 +148,7 @@ nav .navlinks li a{
     box-shadow:  0 10px 10px -8px rgb(0 0 0 / 78%);
 }
 .btn.active{
-    border-color: #007ced;
+    border-color: #008000;
 }
 .hero-text .social i{
     color: #e5e5e5;
